@@ -16,7 +16,7 @@ module.exports = function(grunt) {
       build: {
         options: {
           mangle: true,
-          compress: true
+          compress: {}
         },
         files: {
           'i18ng.min.js': ['i18ng.js']
@@ -24,11 +24,11 @@ module.exports = function(grunt) {
       }
     }
 
-  })
+  });
 
-  grunt.loadNpmTasks('grunt-contrib-jshint')
-  grunt.loadNpmTasks('grunt-contrib-uglify')
+  grunt.loadNpmTasks('grunt-contrib-jshint');
+  grunt.loadNpmTasks('grunt-contrib-uglify');
 
   grunt.registerTask('default', ['jshint', 'uglify'])
 
-}
+};
