@@ -1,17 +1,17 @@
 {
   "name": "i18ng",
-  "version": "2.0.0",
+  "version": "3.0.0",
   "authors": [
     "Mike Frey <frey.mike@gmail.com>"
   ],
   "description": "i18next for angular.js",
   "dependencies": {
-    "i18next": "~3.1.0"
+    "i18next": "~1.7.2"
   },
   "devDependencies": {
-    "angular": "~1.4.0",
-    "angular-mocks": "~1.4.0",
-    "angular-sanitize": "~1.4.0"
+    "angular": "~1.5.0",
+    "angular-mocks": "~1.5.0",
+    "angular-sanitize": "~1.5.0"
   },
   "main": "i18ng.js",
   "keywords": [
